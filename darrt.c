@@ -97,7 +97,7 @@ long calculate_points(aim *a){
 		points=-2*pow(2,distance-HLEN);
 	}
 	else if((byte) a->y == HLEN && (byte) a->x == HWID){
-		points=1000000;
+		points=10000;
 	}
 	else{
 		points=pow(2,HLEN-distance);
